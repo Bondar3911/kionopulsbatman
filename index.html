@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet">
+	<title>Бэтмэн</title>
+</head>
+<body>
+	<div class="container">
+
+		<!-- HEADER -->
+		<header class="header">
+			<a href="#" class="logo">КиноПульс</a>
+			<form action="" class="search">
+				<input type="search" name="" class="search__input" placeholder="Films, serials, actors...">
+				<button type="submit" class="search__button">
+					<img src="search-icon.svg" alt="">
+				</button>
+			</form>
+			<div class="user">
+				<img src="bookmark.svg" class="bookmark bookmark__active" id="bookmark">
+				<img src="COVID-19.jpg" class="avatar">
+			</div>
+		</header>
+
+
+		<!-- MAIN -->
+		<main class="main">
+
+			<h1 class="title animated fadeInRight">Бэтмэн</h1>
+			<small class="title__en animated fadeInRight">The Batman</small>
+
+			<div class="info animated fadeInUp delay-1s">
+				<div class="movie__info">
+					<span class="tag">Фильм</span>
+					<span class="country">США, 2021 год</span>
+					<a data-fancybox href="https://www.youtube.com/watch?v=Xo8i2ZDMlQg" class="play__tr">Смотреть трейлер</a>
+				</div>
+				<a href="#" class="more">Подробнее</a>
+			</div>
+
+			<div class="content">
+				<div class="short__info">
+					<img src="cover.png" class="poster">
+					<button class="button">Буду смотреть</button>
+					<h3 class="actors__title">В главных ролях</h3>
+
+					<ul class="actors__list">
+						<li class="actors__list__item">Роберт Паттинсон</li>
+						<li class="actors__list__item">Зои Кравиц</li>
+						<li class="actors__list__item">Колин Фаррелл</li>
+						<li class="actors__list__item">Питер Сарсгаард</li>
+						<li class="actors__list__item">Пол Дано</li>
+						<li class="actors__list__item">Энди Серкис</li>
+						<li class="actors__list__item">Джеффри Райт</li>
+						<li class="actors__list__item">Джон Туртурро</li>
+						<li class="actors__list__item">Макс Карвер</li>
+						<li class="actors__list__item">Кон О’Нилл</li>
+					</ul>
+					
+				</div>
+
+				<div class="full__info">
+					<nav class="tabs">
+						<a href="#about" class="tabs__item tabs__item__active">Описание</a>
+						<a href="#reviews" class="tabs__item">Рецензии</a>
+						<a href="#premiers" class="tabs__item">Премьеры</a>
+						<a href="#actors" class="tabs__item">Актеры</a>
+						<a href="#honors" class="tabs__item">Награды</a>
+						<a href="#facts" class="tabs__item">Факты</a>
+						<a href="#sites" class="tabs__item">Сайты</a>
+						<a href="#about" class="tabs__item">
+							<img src="bookmark-icon.svg" class="bookmark__ad">
+						</a>
+					</nav>
+
+					<div class="full__content">
+						<div class="tabs__content visible" id="about">
+							<p class="text">Предстоящий американский супергеройский фильм, основанный на одноимённых комиксах издательства DC Comics. Картина будет выпущена компанией Warner Bros. и будет перезагрузкой всех фильмов о Бэтмене</p>
+							<p class="text">Фильм является десятым по счёту фильмом из Расширенной вселенной DC. Режиссёром и сценаристом фильма выступит Мэтт Ривз, а главную роль исполнит Роберт Паттинсон</p>
+							<h4 class="text__title">Разработка</h4>
+							<p class="text">В октябре 2014 года студия Warner Bros. объявила, что в разработке находится сольный фильм о Бэтмене, роль которого вновь исполнит Бен Аффлек. В июле 2015 года сообщалось, что Аффлек ведёт переговоры со студией по поводу постановки фильма и совместного написания сценария с Джеффом Джонсом. </p>	
+							<p class="text">После выхода фильма «Бэтмен против Супермена: На заре справедливости» руководитель агентства WME Патрик Уайтсел подтвердил, что Аффлек написал сценарий для сольного фильма о Бэтмене и в настоящий момент его рассматривают студия и DC. В мае 2016 года Джереми Айронс подтвердил, что он появится в фильме про Тёмного Рыцаря. </p>
+							<p class="text">На Comic-Con в Сан-Диего в июле 2016 года было официально подтверждено, что Аффлек станет режиссёром картины. В августе 2016 года на одной из страниц Аффлека в социальных сетях был опубликован тестовый материал, в котором был показан персонаж Детстроук. 8 сентября 2016 года Джефф Джонс подтвердил, что Джо Манганьелло сыграет наёмника Слейда Уилсона, который, возможно, станет главным злодеем фильма.</p>
+						</div>
+
+						<div class="tabs__content" id="reviews">
+							<p class="text">Тут скоро появятся рецензии</p>
+						</div>
+
+						<div class="tabs__content" id="premiers">
+							<p class="text">Тут скоро появятся Премьеры</p>
+						</div>
+
+						<div class="tabs__content" id="actors">
+							<p class="text">Тут скоро появятся Актеры</p>
+						</div>
+
+						<div class="tabs__content" id="honors">
+							<p class="text">Тут скоро появятся Награды</p>
+						</div>
+
+						<div class="tabs__content" id="facts">
+							<p class="text">Тут скоро появятся Факты</p>
+						</div>
+
+						<div class="tabs__content" id="sites">
+							<p class="text">Тут скоро появятся сайты</p>
+						</div>
+
+						<div class="subscribe">
+							<h3 class="subscribe__title">Подпишитесь на обновления</h3>
+							<form class="subscribe__form">
+								<input type="text" class="subscribe__input" placeholder="Ваш Email">
+								<button class="subscribe__button">
+									<img src="check.svg">
+								</button>
+							</form>
+							<a href="#" class="banner">
+								<img src="image 1.jpg">
+							</a>
+						</div><!-- SUBSCRIBE -->
+					</div><!-- FULL CONTENT -->
+
+				</div><!-- FULL INFO -->
+			</div><!-- CONTENT -->
+
+		</main> <!-- MAIN -->
+		<footer class="footer">
+			<a href="https://www.instagram.com/bondar.3911/" class="footer__text created">Created by Nikita Bondar</a>
+			<a href="https://www.instagram.com/islamovartem/" class="footer__text design">Design by Artem Islamov</a>
+		</footer>
+
+
+	</div> <!-- container -->
+
+<!-- библиотека ЖКВЕРИ:))) -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+<!-- подКлючаем фенсибоКс(модальніе окна) -->
+<script  src="jquery.fancybox.min.js"></script>
+
+<!-- MY SCRIPT -->
+<script src="script.js"></script>
+
+</body>
+</html>
